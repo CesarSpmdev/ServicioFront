@@ -1,25 +1,39 @@
 import { PersonCircleFilled } from "@fluentui/react-icons";
-import qhaluma_logo_navbar from "../assets/images/qhaluma_logo_navbar.png";
+import qhaluma_colores from "../assets/images/qhaluma_colores.png";
 
 
 export const Navbar = () => {
 
     return (
         <div style={{
-            height: "5%",
-            background: "#ffffff",
+            height: "15%",
+            background: "black",
             display: "flex",
-            padding: "10px",
+            padding: "5px",
             flexDirection: "row",
-            justifyContent: "space-between",
+            justifyContent: "space-around",
         }}>
             <div>
-                <img src={qhaluma_logo_navbar} alt="qhaluma_logo" style={{ height: "100%" }} />
+
             </div>
             <div>
-                <PersonCircleFilled fontSize={32} />
-                <span style={{ color: "Black" }}>Login</span>
+                <img src={qhaluma_colores} alt="qhaluma_colores" style={{ height: "100%" }} />
             </div>
+            <div>
+                <div style={{
+                    display: "flex",
+                    justifyContent: "flex-around",
+                    alignItems: "flex-end",
+                    border: "1px solid",
+                    borderColor: "black",
+                    borderRadius: "10px",
+                    padding: "5px"
+                }}>
+                    {/* <PersonCircleFilled fontSize={28} />
+                    <span style={{ color: "Black" }}>Acceder</span> */}
+                </div>
+            </div>
+
         </div>
     )
 }

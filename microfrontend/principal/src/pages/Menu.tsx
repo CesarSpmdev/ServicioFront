@@ -1,3 +1,4 @@
+import { Body } from "./Body"
 import { Navbar } from "./Navbar"
 
 export const Menu = () => {
@@ -12,8 +13,7 @@ export const Menu = () => {
             display: "flex",
         }}>
             <Navbar />
-            <main style={{ flex: 1 }}>
-            </main>
+            <Body />
             <footer>
 
             </footer>
