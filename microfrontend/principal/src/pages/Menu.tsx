@@ -10,6 +10,7 @@ export const Menu = () => {
         const handleScroll = (): void => {
             setScrollY(window.scrollY);
         };
+        
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);

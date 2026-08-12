@@ -27,10 +27,19 @@ export const Body = () => {
                         transition: "all 0.6s ease-out",
                     }}
                 >
-                    <h1 style={{ fontSize: "52px", margin: 0, lineHeight: 1.1 }}>
+                    <h1 style={{
+                        fontSize: "52px",
+                        margin: 0,
+                        lineHeight: 1.1
+                    }}>
                         Tu historial médico, de una vez y para siempre.
                     </h1>
-                    <p style={{ fontSize: "18px", color: "#9aa1ae", marginTop: "20px", lineHeight: 1.6 }}>
+                    <p style={{
+                        fontSize: "18px",
+                        color: "#9aa1ae",
+                        marginTop: "20px",
+                        lineHeight: 1.6
+                    }}>
                         Un solo lugar para tus citas, tus resultados y los de tu familia. Sin carpetas, sin repetir exámenes, sin empezar de cero en cada hospital.
                     </p>
                 </div>
@@ -52,19 +61,47 @@ export const Body = () => {
                         transition: "all 0.6s ease-out",
                     }}
                 >
-                    <span style={{ fontSize: "13px", color: "#1d7a73", letterSpacing: "0.1em", fontWeight: 600 }}>
+                    <span style={{
+                        fontSize: "13px",
+                        color: "#1d7a73",
+                        letterSpacing: "0.1em",
+                        fontWeight: 600
+                    }}>
+
                         CÓMO FUNCIONA
+
                     </span>
-                    <h2 style={{ fontSize: "34px", color: "#1a1a1a", marginTop: "8px" }}>
-                        Agenda hoy. Documenta hoy mismo.
+                    <h2 style={{
+                        fontSize: "34px",
+                        color: "#1a1a1a",
+                        marginTop: "8px"
+                    }}>
+
+                        Agenda hoy, Documenta hoy mismo.
+
                     </h2>
-                    <p style={{ fontSize: "16px", color: "#555", lineHeight: 1.7, marginTop: "20px" }}>
+                    <p style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        lineHeight: 1.7,
+                        marginTop: "20px"
+                    }}>
                         Programa una cita y Qhaluma te avisa por WhatsApp un día antes y el mismo día, para que ningún control se te escape.
                     </p>
-                    <p style={{ fontSize: "16px", color: "#555", lineHeight: 1.7, marginTop: "14px" }}>
+                    <p style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        lineHeight: 1.7,
+                        marginTop: "14px"
+                    }}>
                         Al salir de la consulta, registra lo que pasó ahí mismo: diagnóstico, indicaciones del médico, resultados, radiografías. Todo con fecha y con nombre, listo para el siguiente doctor.
                     </p>
-                    <p style={{ fontSize: "16px", color: "#555", lineHeight: 1.7, marginTop: "14px" }}>
+                    <p style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        lineHeight: 1.7,
+                        marginTop: "14px"
+                    }}>
                         Una cuenta, hasta diez personas. Administra la salud de toda tu familia sin abrir diez apps distintas.
                     </p>
                 </div>
@@ -100,13 +137,36 @@ export const Body = () => {
                         transition: "all 0.6s ease-out",
                     }}
                 >
-                    <span style={{ fontSize: "13px", color: "#1d7a73", letterSpacing: "0.1em", fontWeight: 600 }}>
+                    <span style={{
+                        fontSize: "13px",
+                        color: "#1d7a73",
+                        letterSpacing: "0.1em",
+                        fontWeight: 600
+                    }}>
+
                         NUESTRA RAZÓN DE SER
+
                     </span>
-                    <h2 style={{ fontSize: "36px", color: "white", marginTop: "12px", maxWidth: "700px" }}>
+                    <h2 style={{
+                        fontSize: "36px",
+                        color: "white",
+                        marginTop: "12px",
+                        maxWidth: "700px",
+                        lineHeight: 1
+                    }}>
+
                         Tu salud no debería vivir en la memoria de una clínica que quizá no vuelvas a visitar.
+
                     </h2>
-                    <p style={{ fontSize: "17px", color: "#9aa1ae", lineHeight: 1.7, maxWidth: "600px", marginTop: "20px" }}>
+                    <p style={{
+                        fontSize: "17px",
+                        color: "#9aa1ae",
+                        lineHeight: 1.7,
+                        maxWidth: "700px",
+                        marginTop: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                    }}>
                         Nació de algo que le pasa a casi todos: llegar a un nuevo médico sin saber qué te dijeron en la última consulta. Qhaluma existe para que esa información sea tuya, esté donde estés, y avance contigo de cita en cita.
                     </p>
                 </div>
