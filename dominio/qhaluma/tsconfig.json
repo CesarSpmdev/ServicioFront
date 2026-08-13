@@ -2,6 +2,7 @@
   "extends": "ts-config-single-spa",
   "files": ["src/qhaluma-root-config.ts"],
   "compilerOptions": {
+    "skipLibCheck": true,
     "declarationDir": "dist"
   },
   "include": ["src/**/*"],
