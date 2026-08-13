@@ -13,7 +13,8 @@
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "prepare": "husky install",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "postbuild": "node -e \"require('fs').writeFileSync('dist/index.html', '<!DOCTYPE html><html><body>Microfrontend module - not meant to be visited directly</body></html>')\""
   },
   "overrides": {
     "@types/node": "16.18.11"

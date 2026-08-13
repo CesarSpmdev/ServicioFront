@@ -27,7 +27,7 @@
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="injector-importmap" src="/importmap.json"></script> -->
 
-  <% if (isLocal) { %>
+<% if (isLocal) { %>
   <script type="injector-importmap">
     {
       "imports": {
@@ -36,7 +36,15 @@
       }
     }
   </script>
-  <% } %>
+<% } else { %>
+  <script type="injector-importmap">
+    {
+      "imports": {
+        "@qhaluma/principal": "https://orange-glacier-08addcc10.7.azurestaticapps.net/principal-principal.js"
+      }
+    }
+  </script>
+<% } %>
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@5.1.1/dist/import-map-overrides.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@single-spa/import-map-injector@2.0.1/lib/import-map-injector.js"></script>
