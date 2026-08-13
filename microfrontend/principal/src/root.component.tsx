@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { FluentProvider, webLightTheme } from "@fluentui/react-components";
 import AppRoutes from "./routes/AppRoutes";
 
-interface RootProps{
+export interface RootProps{
   name: string;
 }
 
